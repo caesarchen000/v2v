@@ -7,7 +7,7 @@ This project explores a Voice-to-Vehicle (V2V) communication prototype using Pyt
 Each version is organized into its own Git branch to reflect development progression:
 
 
-| Branch Name            | Description                                                                                        |
+| Version Name           | Description                                                                                        |
 | ---------------------- | -------------------------------------------------------------------------------------------------- |
 | `raw`                  | Raw prototype with basic modules for recording and message transmission                            |
 | `ver1`, `ver2`, `ver3` | Structured versions with growing modularity, but still under development and debugging             |
@@ -93,7 +93,7 @@ python main2.py
 python main_ok_with_holding.py
 ```
 
-## 🔧 Notes
+1. 🔧 Notes
 
 * 🖥️ The system requires a **microphone** and **speaker** for real-time voice interaction.
 * 📡 Ensure **port availability** if you're testing client-server communication locally (via `server.py` / `client.py`).
